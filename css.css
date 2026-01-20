@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(77, 77, 77);
+}
+.animationCustom {
+  animation: move 15s linear 1s infinite;
+  color: rgb(0, 255, 76);
+}
+
+@keyframes move {
+  from {
+    transform: translate(0px);
+  }
+  14% {
+    transform: translate(108rem, 50rem);
+    color: rgb(0, 255, 76);
+  }
+  28% {
+    transform: translate(0px);
+    color: yellow;
+  }
+  42% {
+    transform: translate(60rem, 55rem);
+    color: red;
+  }
+  56% {
+    transform: translate(108rem, 25rem);
+    color: rgb(255, 0, 255);
+  }
+  70% {
+    transform: translate(70rem, 0rem);
+    color: rgb(0, 255, 242);
+  }
+  84% {
+    transform: translate(20rem, 55rem);
+    color: blue;
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
