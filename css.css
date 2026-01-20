@@ -2,7 +2,7 @@ body {
   background-color: rgb(77, 77, 77);
 }
 .animationCustom {
-  animation: move 15s linear 1s infinite;
+  animation: move 20s linear 0.5s infinite;
   color: rgb(0, 255, 76);
 }
 
@@ -11,7 +11,7 @@ body {
     transform: translate(0px);
   }
   14% {
-    transform: translate(108rem, 50rem);
+    transform: translate(110rem, 51rem);
     color: rgb(0, 255, 76);
   }
   28% {
@@ -19,19 +19,19 @@ body {
     color: yellow;
   }
   42% {
-    transform: translate(60rem, 55rem);
+    transform: translate(50rem, 51rem);
     color: red;
   }
   56% {
-    transform: translate(108rem, 25rem);
+    transform: translate(110rem, 25rem);
     color: rgb(255, 0, 255);
   }
   70% {
-    transform: translate(70rem, 0rem);
+    transform: translate(70rem, -3rem);
     color: rgb(0, 255, 242);
   }
   84% {
-    transform: translate(20rem, 55rem);
+    transform: translate(20rem, 51rem);
     color: blue;
   }
   100% {
